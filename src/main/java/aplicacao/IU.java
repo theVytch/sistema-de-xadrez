@@ -3,6 +3,7 @@ package aplicacao;
 
 import xadrez.PecaDeXadrez;
 
+//inteface de usuario
 public class IU {
 
     public static void mostraTabuleiro(PecaDeXadrez[][] pecas) {
