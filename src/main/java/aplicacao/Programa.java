@@ -18,13 +18,13 @@ public class Programa {
         PartidaDeXadrez partidaXadrez = new PartidaDeXadrez();
 
         while (true) {
-
+            IU.limpaTela();
             IU.mostraTabuleiro(partidaXadrez.getPecas());
-            System.out.print();
+            System.out.println();
             System.out.print("Origem: ");
             XadrezPosicao origem = IU.lerPosicaoXadrez(ler);
 
-            System.out.print();
+            System.out.println();
             System.out.print("Alvo: ");
             XadrezPosicao alvo = IU.lerPosicaoXadrez(ler);
             PecaDeXadrez capture = partidaXadrez.performaceMovimentoXadrez(origem, alvo);
